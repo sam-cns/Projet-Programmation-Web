@@ -6,4 +6,4 @@ Activer le serveur de Slim en tapant ceci : php -S 0.0.0.0:8080 -t public public
 
 Puis aller sur le navigateur et taper dans l'url : localhost:8080 
 
-installer doctrine/dbal (à installer avant eloquent) : composer require doctrine /dbal
+installer doctrine/dbal (à installer avant eloquent) : composer require doctrine/dbal
