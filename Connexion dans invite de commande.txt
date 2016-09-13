@@ -7,3 +7,9 @@ Activer le serveur de Slim en tapant ceci : php -S 0.0.0.0:8080 -t public public
 Puis aller sur le navigateur et taper dans l'url : localhost:8080 
 
 installer doctrine/dbal (à installer avant eloquent) : composer require doctrine/dbal
+
+
+
+Pour ouvrir un fichier html, ou phtml sur google :
+
+Taper dans la barre de recherche : localhost:8080/test             ( par exemple pour ouvrir le fichier test) on utilise 8080 car c'est le port utilisé pour se connecter au server local.
