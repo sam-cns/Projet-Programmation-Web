@@ -5,3 +5,5 @@ aller dans le ficher avec l'adresse suivante :cd C:\wamp64\www\My_web_app4A\My_a
 Activer le serveur de Slim en tapant ceci : php -S 0.0.0.0:8080 -t public public/index.php
 
 Puis aller sur le navigateur et taper dans l'url : localhost:8080 
+
+installer doctrine/dbal (à installer avant eloquent) : composer require doctrine /dbal
