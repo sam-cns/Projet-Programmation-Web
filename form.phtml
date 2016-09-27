@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   
+   
+<head>
+<meta charset="utf-8">
+<title>CONTACT</title>
+</head>
+    
+    
+<body>
+<!-- action="index.php" method="post" -->
+    
+ <h1>CONTACT</h1>   
+    
+<form action="form.phtml" method="post">
+<p>Nom
+<input type="text" name="nom" />
+</p>
+<p>Prénom
+<input type="text" name="prenom" />
+</p>
+<!--    
+<p>Description</p>
+<textarea name="message" rows="8" cols="45">
+</textarea>
+<br/>
+<p> Année de naissance
+<select name="choix">
+
+    <option value="choix1">1992</option>
+
+    <option value="choix2">1993</option>
+
+    <option value="choix3">1994</option>
+
+    <option value="choix4">1995</option>
+
+</select>
+</p>
+-->
+<br/>
+<input type="submit" value="Valider" />
+</p>    
+     
+</form>
+    
+<p>Je sais comment tu t'appelles, hé hé.
+<?php if (isset($_POST['nom']) && isset($_POST['fonction'])) {
+// on affiche nos résultats
+echo 'Votre nom est '.$_POST['nom'].' et votre prénom est '.$_POST['prenom'];
+} ?> !</p>
+    
+</body>
+
+
+</html>
